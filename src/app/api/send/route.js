@@ -15,8 +15,6 @@ export async function POST(req, res) {
       react: (
         <>
           <h1>{subject}</h1>
-          <p>お問い合わせありがとうございます！</p>
-          <p>以下のお問い合わせ内容を承りました.</p>
           <p>{message}</p>
           <p></p>
         </>
