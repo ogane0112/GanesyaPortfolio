@@ -13,9 +13,14 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>HTNL/CSS/JavaScript</li>
+        <li>React/Next.js</li>
+        <li>tailwindCSS</li>
+        <li>Python</li>
+        <li>C++</li>
+        <li>C</li>
+        <li>GAS</li>
+        <li>VBA</li>
       </ul>
     ),
   },
@@ -24,8 +29,10 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>入野小学校</li>
+        <li>入野中学校</li>
+        <li>浜松湖南高校</li>
+        <li>名城大学</li>
       </ul>
     ),
   },
@@ -34,8 +41,13 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>基本情報技術者</li>
+        <li>ITパスポート</li>
+        <li>JGAP指導員免許 取得</li>
+        <li>乙種第4 類危険物取扱者 取得</li>
+        <li>Python認定技術者</li>
+        <li>重度訪問介護従業者養成研修 修了</li>
+        <li>普通自動者第1 種運転免許 取得</li>
       </ul>
     ),
   },
