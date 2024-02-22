@@ -60,9 +60,9 @@ const Navbar = () => {
             <Link href="#about">about</Link>
 
             {navLinks.map((link, index) => (
-  
+              <li key={index}>
                 <NavLink href={link.path} title={link.title} />
-              
+              </li>
             ))}
           </ul>
         </div>
