@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+//なんかaタグにしたら遷移するようになったお
 const NavLink = ({ href, title }) => {
   return (
     <a
