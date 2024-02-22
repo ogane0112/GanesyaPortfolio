@@ -10,15 +10,15 @@ import LanguageSwitcher from './LamguageChange';
 const navLinks = [
   {
     title: "About",
-    path: "https://ganesya-portfolio-yjps-q9ubcdsd2-ogane0112.vercel.app/#about",
+    path: "https://ganesya-portfolio-yjps.vercel.app/#about",
   },
   {
     title: "Projects",
-    path: "https://ganesya-portfolio-yjps-q9ubcdsd2-ogane0112.vercel.app/#projects",
+    path: "https://ganesya-portfolio-yjps.vercel.app/#projects",
   },
   {
     title: "Contact",
-    path: "https://ganesya-portfolio-yjps-q9ubcdsd2-ogane0112.vercel.app/#contact",
+    path: "https://ganesya-portfolio-yjps.vercel.app/#contact",
   },
 ];
 
