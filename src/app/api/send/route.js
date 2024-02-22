@@ -10,13 +10,15 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: fromEmail,
-      to: [fromEmail, email],
+      to: [fromEmail, email,"210561109@ccmailg.meijo-u.ac.jp"],
       subject: subject,
       react: (
         <>
           <h1>{subject}</h1>
+          <p>以下のお問い合わせ内容をご確認しました</p>
           <p>{message}</p>
-          <p></p>
+          <p>今後は以下のメールアドレスからご連絡させていただきます。</p>
+          <p>kai513272@gmail.com</p>
         </>
       ),
     });
